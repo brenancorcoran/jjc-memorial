@@ -1,0 +1,267 @@
+/* =====Header CSS===== */
+body {
+  margin: 0;
+}
+#navbar {
+  display: grid;
+  min-height: 100px;
+  grid-auto-flow: column;
+  background-color: #fff;
+  grid-gap: 1.5em;
+  padding: 0 40px;
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+  -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+  box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+}
+
+#logo {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+}
+#logo img {
+  width: 230px;
+}
+
+#links {
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+#links a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+#links a:hover {
+  color: #32695c;
+  text-decoration: underline;
+}
+
+/* =======================
+******* Mobile Menu ******
+========================*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+.mobile-btn {
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Mobile to Tablet  */
+@media (min-width: 320px) and (max-width: 992px) {
+  #links,
+  .mobile-menu {
+    display: none;
+  }
+  #logo {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-btn {
+    display: none;
+  }
+  #logo img {
+    width: 150px;
+  }
+  header {
+    background-color: #000;
+  }
+}
+
+/* <=== Home Page ===> */
+.home-page-main {
+  background-color: #87ada5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+  width: fit-content;
+}
+
+.box-right h1 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.box-right h2 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.box-left h1 {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.home-page-main .home-wrapper-left {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.home-page-main .home-wrapper-right {
+}
+
+.home-page-main .box-left {
+  border: #32695c 4px solid;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 300px;
+}
+
+.home-page-main .box-right {
+  background-color: white;
+  border: #32695c 4px solid;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 700px;
+  margin-left: 20px;
+}
+
+/* Register Button */
+.register {
+  margin-bottom: 25px;
+  background-color: #32695c;
+  width: 230px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 5%;
+}
+
+/*Text for register */
+.register {
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6%;
+  padding-right: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover animation for register */
+.register:hover {
+  color: #32695c;
+  background-color: #ffffff;
+  border: 4px solid #32695c;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-decoration: none;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+/* Change color of text for register when hover */
+.register:hover .register {
+  color: #32695c;
+}
+
+/* Arrow for register */
+.reg-arrow {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 4.5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Change color of arrow for register when hover */
+.register:hover .reg-arrow {
+  border: solid #32695c;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 4.5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.photos-btn {
+  padding-top: 50px;
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (max-width: 800px) {
+  body {
+    border: red 5px solid;
+  }
+
+  header {
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+  body {
+    border: blue 5px solid;
+  }
+}
