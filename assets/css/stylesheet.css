@@ -144,7 +144,7 @@ a {
 /* <=== Home Page ===> */
 
 body {
-  border: greenyellow 5px solid;
+  
 }
 
 .home-page-main {
@@ -244,7 +244,7 @@ body {
 /*  =====++ Tablet ++===== */
 @media (min-width: 600px) {
   body {
-    border: red 5px solid;
+
   }
 
   .box-left .button1 {
@@ -259,7 +259,7 @@ body {
 /* =====++ Desktop ++=====*/
 @media (min-width: 900px) {
   body {
-    border: blue 5px solid;
+
   }
 
   .home-page-main {
