@@ -73,7 +73,8 @@ body {
   background-color: #32695c;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 125px;
+  letter-spacing: 2px;
 }
 
 .sidenav a {
@@ -85,6 +86,7 @@ body {
   color: #fff;
   display: block;
   transition: 0.3s;
+  padding-top: 25px;
 }
 
 .sidenav a:hover {
@@ -198,7 +200,7 @@ body {
 
 .home-page-main h3 {
   font-family: 'Shadows Into Light';
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 900;
   text-align: left;
   padding-left: 30px;
@@ -213,7 +215,7 @@ body {
   display: inline-block;
   padding: 0.35em 1.2em;
   border: 0.1em solid #32695c;
-  margin: 0 0.3em 0.3em 0;
+  margin: 0 0.6em 0.6em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
@@ -247,6 +249,10 @@ body {
 
   .box-left .button1 {
     width: 50%;
+  }
+
+  .home-page-main h3 {
+    font-size: 26px;
   }
 }
 
@@ -282,6 +288,10 @@ body {
   .home-page-main h2 {
     font-size: 16px;
     max-width: 800px;
+  }
+
+  .home-page-main h3 {
+    font-size: 26px;
   }
 
   .box-left .button1 {
