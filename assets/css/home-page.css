@@ -112,6 +112,7 @@ a {
 .sidenav img {
   width: 150px;
   margin-left: -18px;
+  border-bottom: 2px solid white;
 }
 
 .mobile-btn {
