@@ -149,3 +149,40 @@ a {
     background-color: #000;
   }
 }
+
+
+/* ======FOOTER CSS====== */
+.main-footer {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+}
+.main-footer .footer-elements {
+  width: 182px;
+}
+.main-footer .footer-img {
+  width: 50px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.main-footer ul li {
+  list-style-type: none;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.main-footer a {
+  color: #000;
+  text-decoration: none;
+}
+.main-footer a:hover {
+  color: #000;
+  transition: text-decoration 1000ms;
+  text-decoration: none;
+  transition: text-shadow 500ms;
+  text-shadow: 2px 2px 12px #32695c;
+}
+
+svg:hover {
+  transition: filter 500ms;
+  -webkit-filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.99));
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.99));
+}
