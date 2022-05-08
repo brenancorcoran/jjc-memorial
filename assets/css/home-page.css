@@ -49,16 +49,19 @@ body {
 
 #links a:hover {
   color: #32695c;
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: #87ada5;
 }
 
 #links a:nth-child(1) {
   color: #fff;
   background-color: #32695c;
+  text-decoration: none;
 }
 
 #links a:nth-child(1):hover {
   color: #87ada5;
+  text-decoration: none;
 }
 
 /* =======================
