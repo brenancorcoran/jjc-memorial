@@ -74,7 +74,6 @@ body {
   background-color: #32695c;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 125px;
   letter-spacing: 2px;
 }
 
@@ -105,6 +104,11 @@ body {
 
 a {
   font-family: 'Roboto', sans-serif;
+}
+
+.sidenav img {
+  width: 150px;
+  margin-left: -18px;
 }
 
 .mobile-btn {
