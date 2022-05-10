@@ -24,14 +24,6 @@ body {
   width: 150px;
 }
 
-.jjc-title-header {
-  font-family: 'Roboto', serif;
-  font-size: 26px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
 #links {
   display: grid;
   justify-content: right;
@@ -162,7 +154,12 @@ a {
   }
 
   .jjc-title-header {
-    display: none;
+    font-family: 'Roboto', serif;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 20px;
   }
 }
 
