@@ -24,6 +24,14 @@ body {
   width: 150px;
 }
 
+.jjc-title-header {
+  font-family: 'Roboto', serif;
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
 #links {
   display: grid;
   justify-content: right;
@@ -137,6 +145,10 @@ a {
   .logo .logo-img {
     text-align: center;
   }
+
+  .jjc-title-header {
+    display: none;
+  }
 }
 
 /* Tablet to Desktop */
@@ -148,8 +160,11 @@ a {
   header {
     background-color: #000;
   }
-}
 
+  .jjc-title-header {
+    display: none;
+  }
+}
 
 /* ======FOOTER CSS====== */
 .main-footer {
