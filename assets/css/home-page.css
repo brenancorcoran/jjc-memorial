@@ -262,7 +262,7 @@ body {
 }
 
 #insta-btn {
-  background-color: #E1306C;
+  background-color: #e1306c;
 }
 
 button:hover {
@@ -279,7 +279,7 @@ button:hover {
 }
 
 .button-icon {
-  font-size: 1.0em;
+  font-size: 1em;
   background: rgba(0, 0, 0, 0.08);
 }
 
