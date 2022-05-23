@@ -182,24 +182,32 @@ body {
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-left: 2px;
   margin-right: 2px;
-  box-shadow: -5px 5px 5px 0.5px rgb(85, 85, 85);
-  width: 95%;
+  box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
+  width: 97%;
+}
+
+.home-page-main .home-wrapper-right h1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .home-page-main .home-wrapper-left {
- display: grid;
+  display: grid;
   order: 2;
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 2px;
   margin-right: 2px;
-  width: 95%;
-  box-shadow: -5px 5px 5px 0.5px rgb(85, 85, 85);
+  width: 97%;
+  box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
   place-content: center;
 }
 
@@ -207,12 +215,13 @@ body {
   padding-bottom: 20px;
 }
 
-.home-page-main h1 {
+.home-page-main .home-wrapper-left h1 {
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .home-page-main h2 {
@@ -328,7 +337,7 @@ button:hover {
     font-size: 24px;
   }
 
-    .home-page-main .home-wrapper-left h1 {
+  .home-page-main .home-wrapper-left h1 {
     font-size: 22px;
     letter-spacing: 5px;
   }
