@@ -364,15 +364,17 @@ button:hover {
   font-family: 'Roboto', sans-serif;
 }
 .main-footer .footer-elements {
-  width: 182px;
+  text-align: center;
 }
 .main-footer .footer-img {
   width: 50px;
-  margin-left: 35px;
   margin-top: 20px;
+  position: fixed;
 }
-.main-footer ul li {
+.main-footer ul > li {
   list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
   font-weight: 600;
   margin-bottom: 1rem;
 }
