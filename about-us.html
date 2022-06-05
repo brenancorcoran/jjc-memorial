@@ -1,136 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JJC Memorial Golf Tournament - About Us</title>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="assets/css/about-us.css">
+    <link href="assets/img/jjc_favicon.ico" rel="icon" type="image/x-icon" /><!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&amp;display=swap" rel="stylesheet" /><!-- Styles -->
+    <link href="assets/css/about-us/about-us.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <nav>
             <div id="navbar">
                 <div class="logo" id="reverse">
-                    <div class="mobile-btn" onclick="openNav()">&#9776;</div>
-                    <div class="logo-img" onclick="location.href='index.html';" style="cursor: pointer;"><img src="assets/img/jjc_logo_navy.png" alt="JJC Memorial" /> </div>
+                    <div class="mobile-btn" onclick="openNav()">☰</div>
 
+                    <div class="logo-img" onclick="location.href='index.html';" style="cursor: pointer;"><img alt="JJC Memorial" src="assets/img/jjc_logo_black.png" /></div>
                 </div>
 
-                <h4 class="jjc-title-header">John J. Corcoran <br>Memorial Golf Tournament</h4>
+                <h4 class="jjc-title-header" onclick="location.href='index.html';" style="cursor: pointer;">John J. Corcoran Sr.<br />
+                    Memorial Golf Tournament</h4>
 
-                <div id="links">
-                    <a href="index.html">Home</a>
-                    <a href="register.html">Register</a>
-                    <a href="about-us.html">About Us</a>
-                </div>
-
+                <div id="links"><a href="index.html">Home</a> <a href="https://app.eventcaddy.com/events/jjc-memorial/register" target="_blank">Register</a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PRWP9KEGBV2RY&amp;source=url" target="_blank">Donate</a> <a href="https://app.eventcaddy.com/events/jjc-memorial/store" target="_blank">Sponsors</a> <a href="about-us.html">About Us</a></div>
             </div>
         </nav>
         <!-- Mobile Menu -->
-        <div id="tr-sidenav" class="sidenav">
-            <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
-            <a><img src="assets/img/jjc_logo_white.png" alt="jjc_logo_white" id="logo-menu"></a>
-            <a href="index.html">Home</a>
-            <a href="register.html">Register</a>
-            <a href="about-us.html">About Us</a>
-        </div>
+
+        <div class="sidenav" id="tr-sidenav"><a class="closebtn" onclick="closeNav()" style="cursor:pointer;">&times;</a> <a><img alt="jjc_logo_white" id="logo-menu" src="assets/img/jjc_logo_white.png" /></a> <a href="index.html">Home</a> <a href="https://app.eventcaddy.com/events/jjc-memorial/register" target="_blank">Register</a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PRWP9KEGBV2RY&amp;source=url" target="_blank">Donate</a> <a href="https://app.eventcaddy.com/events/jjc-memorial/store" target="_blank">Sponsors</a> <a href="about-us.html">About Us</a></div>
     </header>
 
     <div class="about-us-main">
-
         <div class="about-us-wrapper-left">
             <div class="box-left">
                 <h1>Follow Us!</h1>
-
-                <button type="button" class="button" id="fb-btn" onclick="location.href='https://www.facebook.com/groups/jjcmemorial/';">
-                    <span class="button-icon">
-                        <img src="assets/img/fb-btn-icon.png" alt="fb-icon">
-                    </span>
-                    <span class="button-text">JJC on Facebook</span>
-                </button>
-
-                <button type="button" class="button" id="insta-btn" onclick="location.href='https://www.instagram.com/jjc_golf/';">
-                    <span class="button-icon">
-                        <img src="assets/img/insta-btn-icon.png" alt="insta-icon">
-                    </span>
-                    <span class="button-text">JJC on Instagram</span>
-                </button>
-
-
+                <a class="button" href="https://www.facebook.com/groups/jjcmemorial/" id="fb-btn" target="_blank"><span class="button-icon"><img alt="fb-icon" src="assets/img/fb-btn-icon.png" /></span> <span class="button-text">JJC on Facebook</span> </a> <a class="button" href="https://www.instagram.com/jjc_golf/" id="insta-btn" target="_blank"><span class="button-icon"><img alt="insta-icon" src="assets/img/insta-btn-icon.png" /></span> <span class="button-text">JJC on Instagram</span> </a>
             </div>
-
         </div>
 
         <div class="about-us-wrapper-right">
             <div class="box-right">
                 <h1>About Us</h1>
+                <img alt="jjc-about-us-img" class="jjc-about-us-img" src="assets/img/jjc_uncles.JPG" />
+                <h2>In May of 1984, John J Corcoran Sr. was diagnosed with colon cancer. Sadly, it was only six months later that he went to eternal life in heaven. He left behind, his wife, Florence, five sons and hundreds if not thousands of friends and family who knew and loved him.<br />
+                    <br />
+                    In an effort to continue the celebration of his life, the first JJC Memorial Golf Outing was held on the first Friday in August of 1985 at High Mountain Golf Club in Franklin Lakes, NJ. In the years that followed, the growth in attendance of the JJC Memorial and the loyalty of the attendees has been amazing to watch year after year.<br />
+                    <br />
+                    The following observation was loud and clear: The life lived by John J Corcoran Sr, his love for his wife and children and his open invitation to include all those he met as potential new members of his family is embraced by many more people than ever imagined.<br />
+                    <br />
+                    The golf part of the Tournament day is symbolic of the love of the game by both John and Florence. The purpose of the golf outing is plain and simple, primarily to provide an opportunity to spend the day golfing, laughing and catching up with friends, both old and new.<br />
+                    <br />
+                    We remember both John and Florence Corcoran each year as the first Friday in August brings us all together to celebrate their life and the legacy they have left; a love for golf, family and friends and fun.<br />
+                    <br />
+                    We also are honored to have the opportunity to raise money for a worthy cause realizing how grateful each of us is to have this life and opportunity to spend the day with great friends. When you enter this golf outing you may be a stranger, but you leave as family!<br />
+                    <br />
+                    <br />
+                    &nbsp;</h2>
 
-                <img src="assets/img/jjc_uncles.JPG" alt="jjc-about-us-img" class="jjc-about-us-img">
+                <hr style="width: 95%; color: #32695c;" /> <a href="https://www.emmanuelcancer.org/" target="_blank"><img alt="emmanuel-logo" class="emmanuel-logo" src="assets/img/emmanuel-logo.jpg" /></a>
 
-                <h2>Founded in 1985 in honor of John J. Sr. and Florence Corcoran, this annual memorial event on the first Friday in August is a day filled with golf, food, and drinks to raise mmoney for the Emmanuel Cancer Foundation. <br>
-                    <br>
+                <h2>The Emmanuel Cancer Foundation Provides New Jersey families facing the crisis of pediatric cancer a place to turn for comfort and support through professional in-home counseling and a uniquely tailored package of assistance - all free-of-charge.<br />
+                    <br />
+                    <u>What they do:</u><br />
+                    <br />
+                    ~ In-Home Counseling<br />
+                    ~ Material Assistance<br />
+                    ~ Emergency Financial Aid<br /><br />
 
-                    Together with friends and extended family, John and Florence's 5 sons have continued this tradition that includes a fun filled day as well as the creation of long lasting friendships.
+                    &nbsp;</h2>
 
-                    <br>
-                    <br>
+                <h1 style="text-decoration: underline; font-weight: 300;">Meet Emmanuel</h1>
 
-                    Participants over the years have described the event as "more of a family reunion than just a golf outing".
+                <h2>On February 5, 1981, Emmanuel Vizzoni was diagnosed with Burkett’s lymphoma just weeks after his seventh birthday. Over the next two months, his parents, Joseph and Susan Vizzoni, alternated shifts at the hospital while their son endured grueling medical treatments. Sadly, on April 5 of that year, the lymphoma claimed Manny’s life, leaving his family to pick up the pieces.<br /><br />
 
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-                </h2>
-
-                <hr style="width: 95%; color: #32695c;">
-
-                <img src="assets/img/emmanuel-logo.jpg" alt="emmanuel-logo" class="emmanuel-logo">
-
-                <h2>
-                    The Emmanuel Cancer Foundation Provides New Jersey families facing the crisis of pediatric cancer a place to turn for comfort and support through professional in-home counseling and a uniquely tailored package of assistance - all free-of-charge.
-                    <br><br>
-                    <u>What they do:</u>
-                    <br><br>
-                    ~ In-Home Counseling
-                    <br>
-                    ~ Material Assistance
-                    <br>
-                    ~ Emergency Financial Aid
-                    <br><br>
-                </h2>
-
-                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PRWP9KEGBV2RY&amp;source=url" class="ecf-donation-btn">DONATE NOW</a>
-
+                    Coping with their grief and explaining to their younger daughter why her brother had simply “disappeared” proved to be incredibly difficult for the Vizzoni family. At that time, medical treatments for pediatric cancers were developing rapidly; however there were large gaps in the emotional, spiritual, and financial support available for families. Susan reflects, “Joe and I came to understand—because we were running back and forth to the hospital while family members helped care for our daughter—that families with other circumstances must have an incredibly difficult time managing this. We realized that the best thing we could do to cope with our own loss was to start helping others in this situation.”<br /><br /><br /></h2>
+                <a class="ecf-donation-btn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PRWP9KEGBV2RY&amp;source=url" target="_blank">DONATE NOW</a>
             </div>
 
+            <h2 style="text-align: center;"><b><i>*Please add "JJC Memorial" in the notes of your donation for traceability.*</i></b></h2>
         </div>
-
     </div>
-
     <!-- Footer -->
+
     <footer class="main-footer">
-        <div class="footer-elements">
-            <img class="footer-img" src="assets/img/jjc_logo_black.png" alt="">
+        <div class="footer-elements"><img alt="" class="footer-img" src="assets/img/jjc_logo_black.png" />
             <ul>
                 <li><a href="about-us.html">About Us</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="https://app.eventcaddy.com/events/jjc-memorial/register" target="_blank">Register</a></li>
             </ul>
         </div>
-
     </footer>
-
     <script src="assets/js/javascript.js"></script>
-
 </body>
 </html>

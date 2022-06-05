@@ -7,7 +7,7 @@ body {
   min-height: 100px;
   grid-auto-flow: column;
   background-color: #fff;
-  grid-gap: 1.5em;
+  grid-gap: 1em;
   padding: 0 40px;
   -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
   -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
@@ -39,11 +39,11 @@ body {
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   border: #000 solid 0.5px;
   box-shadow: -2px 2px 0.5px rgb(56, 56, 56);
   min-width: max-content;
@@ -55,13 +55,13 @@ body {
   background-color: #87ada5;
 }
 
-#links a:nth-child(3) {
+#links a:nth-child(5) {
   color: #fff;
   background-color: #32695c;
   text-decoration: none;
 }
 
-#links a:nth-child(2):hover {
+#links a:nth-child(5):hover {
   color: #87ada5;
   text-decoration: none;
 }
@@ -163,7 +163,6 @@ a {
     padding-top: 20px;
   }
 }
-
 /* ======FOOTER CSS====== */
 .main-footer {
   background: white;
@@ -202,13 +201,10 @@ svg:hover {
 
 /* ===ABOUT US=== */
 
-body {
-}
-
 .about-us-main {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #87ada5;
+  background-color: #648981;
   place-items: center;
   text-align: center;
 }
@@ -229,13 +225,10 @@ body {
 
 .about-us-main .about-us-wrapper-right h1 {
   font-family: 'Roboto';
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: underline;
-  letter-spacing: 2px;
-  color: #32695c;
 }
 
 .jjc-about-us-img {
@@ -298,21 +291,22 @@ body {
 
 /* Social Media Buttons */
 
-.button {
+.about-us-main .about-us-wrapper-left .button {
   display: flex;
-  width: 175px;
-  height: 30px;
+  width: 275px;
+  height: 35px;
   padding: 0;
   border: none;
   outline: none;
   border-radius: 5px;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 700;
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 #fb-btn {
@@ -331,18 +325,18 @@ button:hover {
 .button-icon {
   display: inline-flex;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 25px;
   color: #fff;
   height: 100%;
 }
 
 .button-icon {
-  font-size: 1em;
+  font-size: 1.5em;
   background: rgba(0, 0, 0, 0.08);
 }
 
 .button-icon img {
-  width: 18px;
+  width: 24px;
 }
 
 /* ~~~~~=====MEDIA QUERIES ======~~~~~*/
@@ -374,6 +368,7 @@ button:hover {
 
   .about-us-main .about-us-wrapper-right {
     display: grid;
+    text-align: center;
     place-content: center;
     height: 98%;
     max-width: 800px;
