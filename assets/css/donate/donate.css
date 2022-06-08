@@ -1,0 +1,450 @@
+/* =====Header CSS===== */
+body {
+  margin: 0;
+}
+#navbar {
+  display: grid;
+  min-height: 100px;
+  grid-auto-flow: column;
+  background-color: #fff;
+  grid-gap: 1em;
+  padding: 0 40px;
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+  -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+  box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+}
+
+.logo {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+#links {
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+#links a {
+  text-decoration: none;
+  color: #32695c;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: #000 solid 0.5px;
+  box-shadow: -2px 2px 0.5px rgb(56, 56, 56);
+  min-width: max-content;
+}
+
+#links a:hover {
+  color: #32695c;
+  text-decoration: none;
+  background-color: #87ada5;
+}
+
+#links a:nth-child(3) {
+  color: #fff;
+  background-color: #32695c;
+  text-decoration: none;
+}
+
+#links a:nth-child(3):hover {
+  color: #87ada5;
+  text-decoration: none;
+}
+
+/* =======================
+******* Mobile Menu ******
+========================*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #32695c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 22px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  padding-top: 25px;
+}
+
+.sidenav a:hover {
+  color: #04265b;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidenav img {
+  width: 150px;
+  margin-left: -18px;
+  border-bottom: 2px solid white;
+}
+
+.mobile-btn {
+  font-size: 40px;
+  cursor: pointer;
+  margin-top: 80px;
+}
+
+/* Mobile to Tablet  */
+@media (min-width: 320px) and (max-width: 900px) {
+  #links,
+  .mobile-menu {
+    display: none;
+  }
+
+  .logo {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+  }
+
+  .logo .logo-img {
+    text-align: center;
+  }
+
+  .jjc-title-header {
+    display: none;
+  }
+}
+
+/* Tablet to Desktop */
+@media (min-width: 900px) {
+  .mobile-btn {
+    display: none;
+  }
+
+  header {
+    background-color: #000;
+  }
+
+  .jjc-title-header {
+    font-family: 'Roboto', serif;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 20px;
+  }
+}
+/* ======FOOTER CSS====== */
+.main-footer {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+}
+.main-footer .footer-elements {
+  width: 182px;
+}
+.main-footer .footer-img {
+  width: 50px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.main-footer ul li {
+  list-style-type: none;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.main-footer a {
+  color: #000;
+  text-decoration: none;
+}
+.main-footer a:hover {
+  color: #000;
+  transition: text-decoration 1000ms;
+  text-decoration: none;
+  transition: text-shadow 500ms;
+  text-shadow: 2px 2px 12px #32695c;
+}
+
+svg:hover {
+  transition: filter 500ms;
+  -webkit-filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.99));
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.99));
+}
+
+/* ===ABOUT US=== */
+
+.about-us-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #648981;
+  place-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.about-us-main .about-us-wrapper-right {
+  display: grid;
+  text-align: center;
+  order: 1;
+  border: #32695c 2px solid;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
+  width: 97%;
+  padding-bottom: 20px;
+}
+
+.about-us-main .about-us-wrapper-right h1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-us-main .about-us-wrapper-right h2 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.jjc-about-us-img {
+  max-width: 250px;
+}
+
+.emmanuel-logo {
+  margin-top: 20px;
+  max-width: 325px;
+}
+
+.about-us-main .about-us-wrapper-left {
+  display: grid;
+  order: 2;
+  border: #32695c 2px solid;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 97%;
+  box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
+  place-content: center;
+}
+
+.about-us-main .box-left {
+  padding-bottom: 20px;
+}
+
+.about-us-main .about-us-wrapper-left h1 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.about-us-main h2 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Social Media Buttons */
+
+.about-us-main .about-us-wrapper-left .button {
+  display: flex;
+  width: 275px;
+  height: 35px;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+#fb-btn {
+  background-color: #3b5998;
+}
+
+#insta-btn {
+  background-color: #e1306c;
+}
+
+button:hover {
+  opacity: 75%;
+}
+
+.button-text,
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 25px;
+  color: #fff;
+  height: 100%;
+}
+
+.button-icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.button-icon img {
+  width: 24px;
+}
+
+/* ~~~~~=====MEDIA QUERIES ======~~~~~*/
+
+/*  =====++ Tablet ++===== */
+@media (min-width: 600px) {
+  body {
+  }
+
+  .box-left .button1 {
+    width: 50%;
+  }
+
+  .about-us-main h3 {
+    font-size: 26px;
+  }
+}
+
+/* =====++ Desktop ++=====*/
+@media (min-width: 900px) {
+  body {
+  }
+
+  .about-us-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 35px;
+    padding-top: 10px;
+  }
+
+  .about-us-main .about-us-wrapper-right {
+    display: grid;
+    place-content: center;
+    height: 98%;
+    max-width: 800px;
+    order: 1;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+  }
+
+  .about-us-main .mc-wrapper {
+    display: grid;
+    place-content: center;
+    height: 98%;
+    max-width: 800px;
+    order: 3;
+  }
+
+  .about-us-main .about-us-wrapper-left {
+    display: none;
+  }
+
+  .about-us-main .about-us-wrapper-right h1 {
+    font-size: 26px;
+  }
+
+  .jjc-about-us-img {
+    max-width: 300px;
+  }
+
+  .about-us-main .about-us-wrapper-left h1 {
+    font-size: 22px;
+    letter-spacing: 5px;
+  }
+
+  .about-us-main h2 {
+    font-size: 16px;
+    max-width: 800px;
+  }
+
+  .emmanuel-logo {
+    max-width: 400px;
+  }
+
+  .about-us-main .about-us-wrapper-right .ecf-donation-btn {
+  }
+
+  .box-left .button1 {
+    min-width: 225px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* Mailchimp signup */
+#mc-embed-signup {
+  background: #fff;
+  clear: left;
+  font: 10px Helvetica, Arial, sans-serif;
+  width: 600px;
+}
+
+.about-us-main .mc-wrapper {
+  display: grid;
+  text-align: center;
+  order: 2;
+  border: #32695c 2px solid;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
+  width: 97%;
+  padding-bottom: 20px;
+}
+
+#mc_embed_signup {
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8); /* IE 9 */
+  -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+  -o-transform: scale(0.8, 0.8); /* Opera */
+  -moz-transform: scale(0.8, 0.8); /*Firefox*/
+}
