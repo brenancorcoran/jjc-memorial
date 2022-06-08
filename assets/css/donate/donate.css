@@ -26,7 +26,7 @@ body {
 
 #links {
   display: grid;
-  justify-content: right;
+  justify-content: center;
   align-content: center;
   grid-auto-flow: column;
   grid-gap: 1.5em;
@@ -161,6 +161,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-top: 20px;
+    padding-left: 30px;
   }
 }
 /* ======FOOTER CSS====== */
@@ -227,17 +228,17 @@ svg:hover {
 
 .donate-main .donate-wrapper-right h1 {
   font-family: 'Roboto';
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
 }
 
 .donate-main .donate-wrapper-right h2 {
-  font-family: 'Roboto';
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
 }
 
 .jjc-donate-img {
@@ -247,7 +248,7 @@ svg:hover {
 .emmanuel-logo {
   margin-top: 20px;
   max-width: 325px;
-  border: #551ac0 solid 2px;
+  border:#551ac0 solid 2px;
   border-radius: 22px;
   padding-left: 10px;
   padding-right: 10px;
@@ -365,7 +366,7 @@ button:hover {
   .donate-main {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     padding-top: 10px;
   }
 
@@ -447,9 +448,9 @@ button:hover {
 }
 
 #mc_embed_signup {
-  transform: scale(0.8, 0.8);
-  -ms-transform: scale(0.8, 0.8); /* IE 9 */
-  -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
-  -o-transform: scale(0.8, 0.8); /* Opera */
-  -moz-transform: scale(0.8, 0.8); /*Firefox*/
+  transform: scale(0.9, 0.9);
+  -ms-transform: scale(0.9, 0.9); /* IE 9 */
+  -webkit-transform: scale(0.9, 0.9); /* Safari and Chrome */
+  -o-transform: scale(0.9, 0.9); /* Opera */
+  -moz-transform: scale(0.9, 0.9); /*Firefox*/
 }
