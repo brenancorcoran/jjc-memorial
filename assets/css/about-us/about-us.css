@@ -365,7 +365,7 @@ button:hover {
   .about-us-main {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     padding-top: 10px;
   }
 
