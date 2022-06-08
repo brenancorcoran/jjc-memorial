@@ -207,11 +207,13 @@ svg:hover {
   background-color: #648981;
   place-items: center;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .about-us-main .about-us-wrapper-right {
   display: grid;
-  order: 1;
+  text-align: center;
+  order: 2;
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
@@ -220,7 +222,7 @@ svg:hover {
   margin-right: 2px;
   box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
   width: 97%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .about-us-main .about-us-wrapper-right h1 {
@@ -254,7 +256,7 @@ svg:hover {
 
 .about-us-main .about-us-wrapper-left {
   display: grid;
-  order: 2;
+  order: 3;
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
@@ -363,16 +365,27 @@ button:hover {
   .about-us-main {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
+    padding-top: 20px;
   }
 
   .about-us-main .about-us-wrapper-right {
     display: grid;
-    text-align: center;
     place-content: center;
     height: 98%;
     max-width: 800px;
-    margin-top: 30px;
+    order: 2;
+    padding-bottom: 0px;
+  }
+
+  .about-us-main .mc-wrapper {
+    display: grid;
+    place-content: center;
+    height: 98%;
+    max-width: 800px;
+    order: 1;
+    margin-bottom: 10px;
+    
   }
 
   .about-us-main .about-us-wrapper-left {
@@ -409,4 +422,27 @@ button:hover {
     margin-bottom: 10px;
     margin-top: 10px;
   }
+}
+
+/* Mailchimp signup */
+#mc-embed-signup {
+  background: #fff;
+  clear: left;
+  font: 10px Helvetica, Arial, sans-serif;
+  width: 600px;
+}
+
+.about-us-main .mc-wrapper {
+  display: grid;
+  text-align: center;
+  order: 1;
+  border: #32695c 2px solid;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
+  width: 97%;
+  padding-bottom: 20px;
 }
