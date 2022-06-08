@@ -493,3 +493,21 @@ svg:hover {
   width: 97%;
   padding-bottom: 20px;
 }
+
+#mc_embed_signup_scroll h2 {
+  font-family: 'Roboto';
+  text-decoration: underline;
+  text-align: center;
+}
+
+#mc_embed_signup_scroll label {
+  font-family: 'Roboto';
+}
+
+#mc_embed_signup {
+  transform: scale(0.9, 0.9);
+  -ms-transform: scale(0.9, 0.9); /* IE 9 */
+  -webkit-transform: scale(0.9, 0.9); /* Safari and Chrome */
+  -o-transform: scale(0.9, 0.9); /* Opera */
+  -moz-transform: scale(0.9, 0.9); /*Firefox*/
+}
