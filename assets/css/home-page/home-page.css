@@ -247,7 +247,7 @@ body {
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
-  margin-top: 6px;
+  margin-top: 4px;
   margin-left: 2px;
   margin-right: 2px;
   width: 97%;
@@ -403,9 +403,6 @@ button:hover {
 
   .home-page-main .home-wrapper-left {
     display: none;
-    height: 98%;
-    order: 1;
-    margin-top 35px;
   }
 
   .home-page-main .home-wrapper-right h1 {
@@ -476,11 +473,11 @@ svg:hover {
 
 /* Mailchimp signup */
 #mc-embed-signup {
-            background: #fff;
-            clear: left;
-            font: 10px Helvetica, Arial, sans-serif;
-            width: 600px;
-        }
+  background: #fff;
+  clear: left;
+  font: 10px Helvetica, Arial, sans-serif;
+  width: 600px;
+}
 
 .home-page-main .mc-wrapper {
   display: grid;

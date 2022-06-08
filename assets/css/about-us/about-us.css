@@ -213,7 +213,7 @@ svg:hover {
 .about-us-main .about-us-wrapper-right {
   display: grid;
   text-align: center;
-  order: 2;
+  order: 1;
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
@@ -256,11 +256,11 @@ svg:hover {
 
 .about-us-main .about-us-wrapper-left {
   display: grid;
-  order: 3;
+  order: 2;
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
-  margin-top: 6px;
+  margin-top: 4px;
   margin-left: 2px;
   margin-right: 2px;
   width: 97%;
@@ -366,7 +366,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 25px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .about-us-main .about-us-wrapper-right {
@@ -374,8 +374,9 @@ button:hover {
     place-content: center;
     height: 98%;
     max-width: 800px;
-    order: 2;
+    order: 1;
     padding-bottom: 0px;
+    margin-bottom: 15px;
   }
 
   .about-us-main .mc-wrapper {
@@ -383,9 +384,7 @@ button:hover {
     place-content: center;
     height: 98%;
     max-width: 800px;
-    order: 1;
-    margin-bottom: 10px;
-    
+    order: 3;
   }
 
   .about-us-main .about-us-wrapper-left {
@@ -435,7 +434,7 @@ button:hover {
 .about-us-main .mc-wrapper {
   display: grid;
   text-align: center;
-  order: 1;
+  order: 2;
   border: #32695c 2px solid;
   border-radius: 5px;
   background-color: #fff;
@@ -445,4 +444,12 @@ button:hover {
   box-shadow: -5px 0px 5px 0.5px rgb(85, 85, 85);
   width: 97%;
   padding-bottom: 20px;
+}
+
+#mc_embed_signup {
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8); /* IE 9 */
+  -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+  -o-transform: scale(0.8, 0.8); /* Opera */
+  -moz-transform: scale(0.8, 0.8); /*Firefox*/
 }
