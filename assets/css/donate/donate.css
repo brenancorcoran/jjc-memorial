@@ -201,7 +201,7 @@ svg:hover {
 
 /* ===ABOUT US=== */
 
-.about-us-main {
+.donate-main {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #648981;
@@ -210,7 +210,7 @@ svg:hover {
   padding-bottom: 10px;
 }
 
-.about-us-main .about-us-wrapper-right {
+.donate-main .donate-wrapper-right {
   display: grid;
   text-align: center;
   order: 1;
@@ -225,7 +225,7 @@ svg:hover {
   padding-bottom: 20px;
 }
 
-.about-us-main .about-us-wrapper-right h1 {
+.donate-main .donate-wrapper-right h1 {
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 900;
@@ -233,23 +233,28 @@ svg:hover {
   text-transform: uppercase;
 }
 
-.about-us-main .about-us-wrapper-right h2 {
-    font-family: 'Roboto';
-    font-size: 16px;
-    font-weight: normal;
-    text-align: center;
+.donate-main .donate-wrapper-right h2 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
 }
 
-.jjc-about-us-img {
+.jjc-donate-img {
   max-width: 250px;
 }
 
 .emmanuel-logo {
   margin-top: 20px;
   max-width: 325px;
+  border: #551ac0 solid 2px;
+  border-radius: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
-.about-us-main .about-us-wrapper-left {
+.donate-main .donate-wrapper-left {
   display: grid;
   order: 2;
   border: #32695c 2px solid;
@@ -263,11 +268,11 @@ svg:hover {
   place-content: center;
 }
 
-.about-us-main .box-left {
+.donate-main .box-left {
   padding-bottom: 20px;
 }
 
-.about-us-main .about-us-wrapper-left h1 {
+.donate-main .donate-wrapper-left h1 {
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 900;
@@ -276,7 +281,7 @@ svg:hover {
   letter-spacing: 3px;
 }
 
-.about-us-main h2 {
+.donate-main h2 {
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 400;
@@ -288,7 +293,7 @@ svg:hover {
 
 /* Social Media Buttons */
 
-.about-us-main .about-us-wrapper-left .button {
+.donate-main .donate-wrapper-left .button {
   display: flex;
   width: 275px;
   height: 35px;
@@ -347,7 +352,7 @@ button:hover {
     width: 50%;
   }
 
-  .about-us-main h3 {
+  .donate-main h3 {
     font-size: 26px;
   }
 }
@@ -357,14 +362,14 @@ button:hover {
   body {
   }
 
-  .about-us-main {
+  .donate-main {
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 35px;
     padding-top: 10px;
   }
 
-  .about-us-main .about-us-wrapper-right {
+  .donate-main .donate-wrapper-right {
     display: grid;
     place-content: center;
     height: 98%;
@@ -374,7 +379,7 @@ button:hover {
     margin-bottom: 15px;
   }
 
-  .about-us-main .mc-wrapper {
+  .donate-main .mc-wrapper {
     display: grid;
     place-content: center;
     height: 98%;
@@ -382,24 +387,24 @@ button:hover {
     order: 3;
   }
 
-  .about-us-main .about-us-wrapper-left {
+  .donate-main .donate-wrapper-left {
     display: none;
   }
 
-  .about-us-main .about-us-wrapper-right h1 {
+  .donate-main .donate-wrapper-right h1 {
     font-size: 26px;
   }
 
-  .jjc-about-us-img {
+  .jjc-donate-img {
     max-width: 300px;
   }
 
-  .about-us-main .about-us-wrapper-left h1 {
+  .donate-main .donate-wrapper-left h1 {
     font-size: 22px;
     letter-spacing: 5px;
   }
 
-  .about-us-main h2 {
+  .donate-main h2 {
     font-size: 16px;
     max-width: 800px;
   }
@@ -408,7 +413,7 @@ button:hover {
     max-width: 400px;
   }
 
-  .about-us-main .about-us-wrapper-right .ecf-donation-btn {
+  .donate-main .donate-wrapper-right .ecf-donation-btn {
   }
 
   .box-left .button1 {
@@ -426,7 +431,7 @@ button:hover {
   width: 600px;
 }
 
-.about-us-main .mc-wrapper {
+.donate-main .mc-wrapper {
   display: grid;
   text-align: center;
   order: 2;
