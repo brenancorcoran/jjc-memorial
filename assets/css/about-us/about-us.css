@@ -235,7 +235,7 @@ svg:hover {
 }
 
 .jjc-about-us-img {
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .emmanuel-logo {
@@ -356,6 +356,10 @@ button:hover {
   .about-us-main h3 {
     font-size: 26px;
   }
+
+  .jjc-about-us-img {
+    max-width: 350px;
+  }
 }
 
 /* =====++ Desktop ++=====*/
@@ -397,7 +401,7 @@ button:hover {
   }
 
   .jjc-about-us-img {
-    max-width: 300px;
+    max-width: 400px;
   }
 
   .about-us-main .about-us-wrapper-left h1 {
